@@ -21,11 +21,6 @@ class AboutPage extends Page {
         return $('#menu-item-214803');
     }
     
+}    
 
-
-
-
-
-
-}
 export default new AboutPage();

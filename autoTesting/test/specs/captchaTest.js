@@ -1,7 +1,8 @@
 import {expect} from '@wdio/globals'
-import ProgramsPage from '../pageObjects/programs.page.js'
-import AwardsPage from '../pageObjects/Awards.page.js'
-import AboutPage from '../pageObjects/about.page.js'
+import ProgramsPage from '../pageobjects/programs.page.js';
+import AboutPage from '../pageobjects/about.page.js';
+import AwardsPage from '../pageobjects/awards.page.js';
+import Page from '../pageobjects/page.js';
 
 describe('Captcha Test', () => {
     it('should be able to run through the test clicks without being blocked'), async () => {
