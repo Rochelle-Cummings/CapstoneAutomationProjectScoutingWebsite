@@ -20,7 +20,19 @@ import Page from './page.js';
     get nFourthIndexItem() {
         return $('[href="/awards/awards-central/national-medal-outdoor"]');
     }
-
+    get nFifthIndexItem() {
+        return $('[href="/awards/awards-central/nesa-life"]');
+    }
+    get nSixthIndexItem() {
+        return $('[href="/awards/awards-central/nesa-outstanding"]');
+    }
+    get nSeventhIndexItem() {
+        return $('[href="/awards/awards-central/north-star"]');
+    }
+    get nEighthIndexItem() {
+        return $('[href="https://www.scouting.org/stem-nova-awards/"]');
+    }
+    
 
 
 
