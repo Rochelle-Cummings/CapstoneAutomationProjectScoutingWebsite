@@ -1,21 +1,13 @@
 {
-  "name": "capstoneautomationprojectscoutingwebsite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "autoTesting",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^9.20.0",
+    "@wdio/local-runner": "^9.20.0",
+    "@wdio/mocha-framework": "^9.20.0",
+    "@wdio/spec-reporter": "^9.20.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rochelle-Cummings/CapstoneAutomationProjectScoutingWebsite.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Rochelle-Cummings/CapstoneAutomationProjectScoutingWebsite/issues"
-  },
-  "homepage": "https://github.com/Rochelle-Cummings/CapstoneAutomationProjectScoutingWebsite#readme"
+    "wdio": "wdio run ./wdio.conf.js"
+  }
 }
